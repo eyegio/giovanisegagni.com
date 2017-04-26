@@ -1,0 +1,49 @@
+$c-green:     #7ED321
+$c-orange:    #FF7F17
+$c-blue:      #4990E2
+$c-red:       #D0011B
+$c-grey:      #9B9B9B
+$c-yellow:    #F8E81C
+$alpha:       0.25
+
+#portfolio-section
+  .row
+    margin-right: 0px
+    margin-left: 0px
+    .col-lg-4,
+    .col-lg-5,
+    .col-lg-7
+      padding-left: 0px
+      padding-right: 0px
+      .wrapper-project
+        height: 550px
+        display: -webkit-box
+        display: -moz-box
+        display: -ms-flexbox
+        display: -webkit-flex
+        display: flex
+        align-items: center
+        justify-content: center
+        &.myagonism-project,
+        &.demasteel-project
+          background-color: rgba($c-green, $alpha)
+        &.coach-agenda-project,
+        &.sir-project
+          background-color: rgba($c-orange, $alpha)
+        &.sbl-project,
+        &.jolly-project
+          background-color: rgba($c-blue, $alpha)
+        &.dealer-project,
+        &.fisios-project
+          background-color: rgba($c-red, $alpha)
+        &.paparelli-project
+          background-color: rgba($c-grey, $alpha)
+        &.revolution-project
+          background-color: rgba($c-yellow, $alpha)
+        .img-fluid
+          padding: 4em
+
+// < 769
+@media screen and (max-width: 769px)
+  .img-fluid
+    padding: 2em !important

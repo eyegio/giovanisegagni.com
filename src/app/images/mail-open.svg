@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="55px" height="54px" viewBox="0 0 55 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Mail-open</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="1.79461815e-15 49.9038549 50.8144043 49.9038549 50.8144043 21.6011112 25.4072023 0 1.79461815e-15 21.6011104"></polygon>
+        <mask id="mask-3" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-2" y="-2" width="54.8144043" height="53.9038549">
+            <rect x="-2" y="-2" width="54.8144043" height="53.9038549" fill="white"></rect>
+            <use xlink:href="#path-1" fill="black"></use>
+        </mask>
+        <rect id="path-4" x="4.10958904" y="9.5890411" width="43.7788087" height="26.8893523" rx="8"></rect>
+        <mask id="mask-5" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="43.7788087" height="26.8893523" fill="white">
+            <use xlink:href="#path-4"></use>
+        </mask>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-188.000000, -3619.000000)">
+            <g id="Footer" transform="translate(0.000000, 3600.000000)">
+                <g id="Mail-open" transform="translate(190.000000, 21.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Mask">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <use stroke="#595957" mask="url(#mask-3)" stroke-width="4" stroke-linejoin="round" xlink:href="#path-1"></use>
+                    </g>
+                    <polygon id="Rectangle-4" fill="#ECECEC" mask="url(#mask-2)" points="-6.84931507 11.8737659 25.9666086 -7.53424658 25.9666086 55.8949049 -6.84931507 53.1795721"></polygon>
+                    <g id="Rectangle-1" mask="url(#mask-2)" stroke-width="4" stroke="#595957" fill="#E6FF02">
+                        <use mask="url(#mask-5)" xlink:href="#path-4"></use>
+                    </g>
+                    <rect id="Rectangle-2" fill="#595957" mask="url(#mask-2)" x="10.9589041" y="17.1232877" width="20.8791242" height="2.01670143" rx="1.00835071"></rect>
+                    <rect id="Rectangle-2-Copy" fill="#595957" mask="url(#mask-2)" x="10.9589041" y="22.6027397" width="13.4704027" height="2.01670143" rx="1.00835071"></rect>
+                    <polygon id="Path-331" stroke="#595957" stroke-width="2" stroke-linejoin="round" fill="#ECECEC" mask="url(#mask-2)" points="26.441996 35.8347139 0 50.3032475 -4.45698238e-24 21.2328767"></polygon>
+                    <polygon id="Path-331-Copy" stroke="#595957" stroke-width="2" stroke-linejoin="round" fill="#FFFFFF" mask="url(#mask-2)" transform="translate(38.563464, 35.768062) scale(-1, 1) translate(-38.563464, -35.768062) " points="51.7844617 35.8347139 25.3424658 50.3032475 25.3424658 21.2328767"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
