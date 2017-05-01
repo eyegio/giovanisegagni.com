@@ -4,11 +4,23 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { AgmCoreModule } from 'angular2-google-maps/core';
 import { Ng2PageScrollModule } from 'ng2-page-scroll';
+import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { FooterComponent } from './components/footer/footer.component';
+
+const appRoutes: Routes = [
+  {
+    path: 'Home',
+    component: HomeComponent
+  }/*
+  {
+    path: 'project/:id', 
+    component: DetailComponent
+  }*/
+]
 
 @NgModule({
   declarations: [
@@ -20,6 +32,7 @@ import { FooterComponent } from './components/footer/footer.component';
   imports: [
     BrowserModule,
     FormsModule,
+    RouterModule.forRoot(appRoutes),
     HttpModule,
     Ng2PageScrollModule.forRoot(),
     AgmCoreModule.forRoot({
