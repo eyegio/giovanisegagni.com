@@ -5,13 +5,13 @@ import { HttpModule } from '@angular/http';
 import { AgmCoreModule } from 'angular2-google-maps/core';
 import { Ng2PageScrollModule } from 'ng2-page-scroll';
 import { RouterModule, Routes } from '@angular/router';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { FooterComponent } from './components/footer/footer.component';
 
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 const appRoutes: Routes = [
   {
@@ -19,7 +19,7 @@ const appRoutes: Routes = [
     component: HomeComponent
   }/*
   {
-    path: 'project/:id', 
+    path: 'project/:id',
     component: DetailComponent
   }*/
 ]
