@@ -16,6 +16,7 @@
   <sebm-google-map [latitude]="lat" [longitude]="lng" [zoom]="zm" [scrollwheel]="mapW" [styles]="style">
   </sebm-google-map>
 
-  <a pageScroll [pageScrollOffset]="0" [pageScrollDuration]="800" href="#intro-section" class="btn btn-top">TOP</a>
+  <a pageScroll [pageScrollOffset]="0" [pageScrollDuration]="800" [@rotateAnimation]="state"
+          (mouseover)="animateMe()" href="#intro-section" class="btn btn-top">TOP</a>
 
 </section>
