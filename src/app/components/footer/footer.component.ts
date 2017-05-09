@@ -1,11 +1,25 @@
 import { Component, OnInit } from '@angular/core';
+import { trigger, state, style, animate, transition, keyframes } from '@angular/animations';
 
 @Component({
   selector: 'app-footer',
   templateUrl: './footer.component.html',
-  styleUrls: ['./footer.component.sass']
+  styleUrls: ['./footer.component.sass'],
+  animations: [
+    trigger('rotateAnimation', [
+      state('inactive', style({
+        transform: 'rotate(0deg)'
+      })),
+      state('active', style({
+        transform: 'rotate(360deg)'
+      })),
+      transition('inactive <=> active', animate('400ms ease'))
+    ])
+  ]
 })
 export class FooterComponent implements OnInit {
+  state: string = 'inactive';
+
   lat: number = 40.75401921961654;
   lng: number = -73.98468017578125;
   circledisplay: boolean = true;
@@ -195,6 +209,10 @@ export class FooterComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+  }
+
+  animateMe(){
+    this.state = (this.state === "inactive" ? "active" : "inactive");
   }
 
 }

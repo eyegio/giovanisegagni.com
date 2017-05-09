@@ -14,6 +14,14 @@ import { trigger, state, style, animate, transition, keyframes } from '@angular/
           animate('500ms 1.5s ease-in', style({transform: 'translateX(0)', opacity: 1}))
         ])
       ]
+    ),
+    trigger(
+      'rotateAnimation', [
+        transition(':enter', [
+          style({transform: 'rotate(360deg)'}),
+          animate('500ms 1.5s ease-in')
+        ])
+      ]
     )
   ],
 })
